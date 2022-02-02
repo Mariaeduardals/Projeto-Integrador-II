@@ -1,5 +1,4 @@
 # Projeto Integrador II
-Projeto Integrador
 
 ## CONFIGURANDO O BANCO DE DADOS
 1° Baixe o Mariadb </br>
