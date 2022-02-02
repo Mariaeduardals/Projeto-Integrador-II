@@ -14,6 +14,6 @@ Projeto Integrador
 4° Após a instalação, rode o projeto com o comando "npm start" </br>
 
 ## EXECUTANDO O FRONTEND
-1º - Para facilitar, instale a extensão LiveServer no seu vscode </br>
-2º - Abra a pasta FRONT e clique com o botão direito no arquivo index.html </br>
-3º - Escolha a opção Open with Live Server </br>
+1° Para facilitar, instale a extensão LiveServer no seu vscode </br>
+2° Abra a pasta FRONT e clique com o botão direito no arquivo index.html </br>
+3° Escolha a opção Open with Live Server </br>
