@@ -2,7 +2,7 @@
 Projeto Integrador
 
 ## CONFIGURANDO O BANCO DE DADOS
-1° Baixe o Mariadb
+1° Baixe o Mariadb </br>
 2° Na aba "arquivo", clique em "Carregar arquivo SQL"
 3° Importe o arquivo integrator, que fica em: \BACK\files
 4° Execute o arquivo para criar o banco
