@@ -27,7 +27,7 @@ module.exports = class Incoming {
             return;
         }
 
-        if (this.date.length > 10 || 2000 > parseInt(this.date.substring(0, 4)) || parseInt(this.date.substring(0, 4) > 2200)) {
+        if (this.date.length > 10 || 2000 > parseInt(this.date.substring(0, 4)) || 2200 < parseInt(this.date.substring(0, 4))) {
             this.error = 'Data inválida';
             return;
         }

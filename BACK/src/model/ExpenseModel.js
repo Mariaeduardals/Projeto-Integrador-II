@@ -14,6 +14,7 @@ module.exports = class Expense {
     }
 
     validateFields() {
+
         if (!this.amount) {
             this.error = 'Informe um valor';
             return;
@@ -44,10 +45,11 @@ module.exports = class Expense {
             return;
         }
 
-        if (this.date.length > 10 || 2000 > parseInt(this.date.substring(0, 4)) || parseInt(this.date.substring(0, 4) > 2200)) {
+        if (this.date.length > 10 || 2000 > parseInt(this.date.substring(0, 4)) || 2200 < parseInt(this.date.substring(0, 4))) {
             this.error = 'Data inválida';
             return;
         }
+       
     }
 
     async validateBalance() {
